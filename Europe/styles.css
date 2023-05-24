@@ -1,0 +1,53 @@
+/* This is our stylesheet */
+
+
+/* The first thing to do in your stylesheet is to reset all spacing */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: my_first_font;
+    src url("fortnite.otf");
+}
+
+/* We can redefine HTML tags */
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(55, 253, 0)
+/* Padding is the spacing inside an element */
+
+}
+h1 {
+    /* Setting margin bottom-pushes content further below the heading */
+    margin-bottom: 20px;
+    font-family: my_first_font, Comic sans ms, Helvetica, sans-serif;
+}
+ul {
+    margin-left: 30px;
+    font-family: my_first_font, Comic sans ms, Helvetica, sans-serif;
+}
+p {
+    margin-bottom: 10px;
+    font-family: Comic sans ms, Helvetica, sans-serif;
+}
+h2 {
+    font-family: Comic sans ms, Helvetica, sans-serif;
+}
+/* Formatting links */
+a:link {
+    color: rgb(7, 255, 24);
+    text-decoration: none;
+    font-family: Comic sans ms, Helvetica, sans-serif;
+}
+a:visited{
+    color: rgb(7, 255, 24);
+    text-decoration: none;
+    font-family: Comic sans ms, Helvetica, sans-serif;
+}
+a:hover{
+    color: rgb(191, 49, 49);
+    text-decoration: underline;
+    font-family: Comic sans ms, Helvetica, sans-serif;
+}   
