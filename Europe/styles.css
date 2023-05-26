@@ -8,46 +8,53 @@
 }
 
 @font-face{
-    font-family: my_first_font;
-    src url("fortnite.otf");
+    font-family: Fortnite;
+    src: url("Burbank Big Condensed Black.otf");
 }
 
 /* We can redefine HTML tags */
 body {
-    background-color: rgb(0, 0, 0);
-    color: rgb(55, 253, 0)
+    background-color: rgba(95, 202, 234);
 /* Padding is the spacing inside an element */
 
 }
 h1 {
     /* Setting margin bottom-pushes content further below the heading */
     margin-bottom: 20px;
-    font-family: my_first_font, Comic sans ms, Helvetica, sans-serif;
+    padding: 15px;
+    font-family: Fortnite, Comic sans ms, Helvetica, sans-serif;
+    color: rgb(255, 255, 255)
 }
 ul {
     margin-left: 30px;
-    font-family: my_first_font, Comic sans ms, Helvetica, sans-serif;
+    font-family: Fortnite, Comic sans ms, Helvetica, sans-serif;
+    color: rgb(0, 0, 0)
 }
 p {
     margin-bottom: 10px;
-    font-family: Comic sans ms, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-family: Fortnite, Comic sans ms, Helvetica, sans-serif;
+    color: rgb(0, 0, 0)
 }
 h2 {
-    font-family: Comic sans ms, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-family: Fortnite, Comic sans ms, Helvetica, sans-serif;
+    color: rgb(255, 255, 255)
 }
 /* Formatting links */
 a:link {
-    color: rgb(7, 255, 24);
+    margin-left: 10px;
+    color: rgb(255, 211, 0);
     text-decoration: none;
-    font-family: Comic sans ms, Helvetica, sans-serif;
+    font-family: Fortnite, Comic sans ms, Helvetica, sans-serif;
 }
 a:visited{
-    color: rgb(7, 255, 24);
+    color: rgb(157,77,187);
     text-decoration: none;
-    font-family: Comic sans ms, Helvetica, sans-serif;
+    font-family: Fortnite, Comic sans ms, Helvetica, sans-serif;
 }
 a:hover{
-    color: rgb(191, 49, 49);
+    color: rgb(255, 211, 0);
     text-decoration: underline;
-    font-family: Comic sans ms, Helvetica, sans-serif;
+    font-family: Fortnite, Comic sans ms, Helvetica, sans-serif;
 }   
