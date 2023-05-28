@@ -12,9 +12,15 @@
     src: url("Burbank Big Condensed Black.otf");
 }
 
+@font-face{
+    font-family: Arabic;
+    src: url("arabic.TTF");
+}
+
 /* We can redefine HTML tags */
 body {
-    background-color: rgba(95, 202, 234);
+    background-color: rgb(0, 111, 145);
+    background-image: url(Students-Paragraph-Writing.png);
 /* Padding is the spacing inside an element */
 
 }
@@ -27,13 +33,13 @@ h1 {
 }
 ul {
     margin-left: 30px;
-    font-family: Fortnite, Comic sans ms, Helvetica, sans-serif;
+    font-family: Arabic, Fortnite, Comic sans ms, Helvetica, sans-serif;
     color: rgb(0, 0, 0)
 }
 p {
     margin-bottom: 10px;
     margin-left: 10px;
-    font-family: Fortnite, Comic sans ms, Helvetica, sans-serif;
+    font-family: Arabic, Fortnite, Comic sans ms, Helvetica, sans-serif;
     color: rgb(0, 0, 0)
 }
 h2 {
@@ -46,15 +52,15 @@ a:link {
     margin-left: 10px;
     color: rgb(255, 211, 0);
     text-decoration: none;
-    font-family: Fortnite, Comic sans ms, Helvetica, sans-serif;
+    font-family: Arabic, Fortnite, Comic sans ms, Helvetica, sans-serif;
 }
 a:visited{
     color: rgb(157,77,187);
     text-decoration: none;
-    font-family: Fortnite, Comic sans ms, Helvetica, sans-serif;
+    font-family: Arabic, Fortnite, Comic sans ms, Helvetica, sans-serif;
 }
 a:hover{
     color: rgb(255, 211, 0);
     text-decoration: underline;
-    font-family: Fortnite, Comic sans ms, Helvetica, sans-serif;
+    font-family: Arabic, Fortnite, Comic sans ms, Helvetica, sans-serif;
 }   
