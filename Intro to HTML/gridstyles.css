@@ -1,0 +1,28 @@
+/* Reset all spacing to 0 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display : grid;
+    grid-template-columns: 50% 50%;
+}
+
+.sidebar {
+    background-color:aqua;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.maincontent {
+    background-color:chocolate;
+    padding: 10px 20px 15px 30px;
+    margin-top: 100px;
+}
+
+h1{
+    margin-left: 500px;
+    margin-right: 100px;
+}
