@@ -26,3 +26,9 @@ h1{
     margin-left: 500px;
     margin-right: 100px;
 }
+
+body {
+    background-color: rgb(0, 111, 145);
+    background-image: url(fn\ background.webp);
+    
+}
