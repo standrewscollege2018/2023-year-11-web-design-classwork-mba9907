@@ -1,0 +1,22 @@
+/* This is our stylesheet */
+
+
+/* The first thing to do in your stylesheet is to reset all spacing */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+   
+.container {
+    background-color: white;
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 65% 35%;
+    grid-gap: 30px;
+}
+
+.maincontent{
+    background-color:chocolate;
+    padding: 10px 20px 15px 30px;
+    
+}
