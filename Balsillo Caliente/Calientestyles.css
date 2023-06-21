@@ -1,0 +1,165 @@
+/* This is our stylesheet */
+
+
+/* The first thing to do in your stylesheet is to reset all spacing */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: wildmexico;
+    src: url(Wild\ Mexico.ttf);
+}
+
+@font-face{
+    font-family: newmexico;
+    src: url(New\ Mexico\ Demo.ttf);
+}
+
+@font-face{
+    font-family: spanishcircus;
+    src: url(Spanish\ Circus.otf);
+}
+
+@font-face{
+    font-family: spanishcastles;
+    src: url(Spanish\ Castles.ttf);
+}
+
+body{
+    background-color: #EC4E20;
+}
+
+.board{
+    background-color: #FFD275;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.topbar{
+    width: 100%;
+    height: 170px;
+    background-color:#093824;
+}
+
+.topbar h1{
+    text-align: center;
+    color: #FFB100;
+    font-size: 60px;
+    font-family: spanishcircus, newmexico, wildmexico, Arial, Helvetica, sans-serif
+}
+
+.pageoptions{
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(44, 44, 134);
+    text-decoration: none;
+    color: #FFB100;
+}
+
+.pageoptions a:link{
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+    color: #FFB100;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: spanishcastles, Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #FFD275;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.maincontent{
+    margin-top: 30px;
+    padding: 10px 10px 10px 10px;
+}
+
+.maincontent img{
+    width: 90%;
+    height: auto;
+}
+
+.sidebar{
+    margin-top: 100px;
+    margin-left: 35px;
+    padding: 10px 10px 10px 10px;
+}
+
+.findus{
+    background-color: #432818;
+    margin-right: 100px;
+    color: #FFB100;
+    text-align: center;
+    font-size: 30px;
+    padding: 7px;
+}
+
+.findus h2{
+    font-family: spanishcastles, Arial, Helvetica, sans-serif;
+}
+
+.findusplace{
+    color: #47525E;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.findusplace p{
+    padding: 7px;
+}
+
+.openhours{
+    margin-top: 50px;
+    background-color: #432818;
+    margin-right: 100px;
+    color: #FFB100;
+    text-align: center;
+    font-size: 25px;
+    padding: 7px;
+}
+
+.openhoursinner{
+    color: #47525E;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.openhoursinner p{
+    padding: 7px;
+}
+
+.openhours h2{
+    margin-bottom: 7px;
+    font-family: spanishcastles, Arial, Helvetica, sans-serif;
+}
+
+.bottominfo{
+    background-color: #FFD275;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.bottominfo p{
+    color: #47525E;
+    font-size: 30px;
+    padding: 10px;
+    font-family: spanishcastles, Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 1100px) {
+
+.container{
+    display:flex
+}
+
+}
